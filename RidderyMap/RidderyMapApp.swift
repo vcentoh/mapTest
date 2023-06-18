@@ -11,7 +11,7 @@ import SwiftUI
 struct RidderyMapApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LandingView()
         }
     }
 }

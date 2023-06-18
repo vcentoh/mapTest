@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		797AEE9BA692D853415439A8 /* Pods_RidderyMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EC74519B493E0108E31B54 /* Pods_RidderyMap.framework */; };
+		D05A1FEC2A3E0CB80008F3F9 /* MapViewRepresntable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A1FEB2A3E0CB80008F3F9 /* MapViewRepresntable.swift */; };
+		D05A1FF02A3E1CF90008F3F9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A1FEF2A3E1CF90008F3F9 /* LocationManager.swift */; };
+		D08AA0232A3D1614003EB6E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08AA0222A3D1614003EB6E2 /* HomeView.swift */; };
+		D08AA0252A3D1A29003EB6E2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08AA0242A3D1A29003EB6E2 /* ProfileView.swift */; };
 		D0C415762A3B95A9005E6633 /* RidderyMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C415752A3B95A9005E6633 /* RidderyMapApp.swift */; };
-		D0C415782A3B95A9005E6633 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C415772A3B95A9005E6633 /* ContentView.swift */; };
+		D0C415782A3B95A9005E6633 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C415772A3B95A9005E6633 /* LandingView.swift */; };
 		D0C4157A2A3B95AA005E6633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C415792A3B95AA005E6633 /* Assets.xcassets */; };
 		D0C4157D2A3B95AA005E6633 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C4157C2A3B95AA005E6633 /* Preview Assets.xcassets */; };
+		D0E45E192A3E9433001DC593 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E45E182A3E9433001DC593 /* RegisterView.swift */; };
+		D0E45E1B2A3E9802001DC593 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E45E1A2A3E9802001DC593 /* LoginView.swift */; };
+		D0E45E1D2A3EC008001DC593 /* DrawerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E45E1C2A3EC008001DC593 /* DrawerMenu.swift */; };
+		D0E45E1F2A3EDDD7001DC593 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E45E1E2A3EDDD7001DC593 /* Views.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C3EC74519B493E0108E31B54 /* Pods_RidderyMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RidderyMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05A1FEB2A3E0CB80008F3F9 /* MapViewRepresntable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewRepresntable.swift; sourceTree = "<group>"; };
+		D05A1FEF2A3E1CF90008F3F9 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D08AA0222A3D1614003EB6E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D08AA0242A3D1A29003EB6E2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		D0C415722A3B95A9005E6633 /* RidderyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RidderyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C415752A3B95A9005E6633 /* RidderyMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidderyMapApp.swift; sourceTree = "<group>"; };
-		D0C415772A3B95A9005E6633 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0C415772A3B95A9005E6633 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		D0C415792A3B95AA005E6633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0C4157C2A3B95AA005E6633 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0E45E182A3E9433001DC593 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		D0E45E1A2A3E9802001DC593 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D0E45E1C2A3EC008001DC593 /* DrawerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenu.swift; sourceTree = "<group>"; };
+		D0E45E1E2A3EDDD7001DC593 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		E10A7BEE2428C8EFDBEFE0AB /* Pods-RidderyMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RidderyMap.debug.xcconfig"; path = "Target Support Files/Pods-RidderyMap/Pods-RidderyMap.debug.xcconfig"; sourceTree = "<group>"; };
+		FE049FD08AEAC3E9A34BF07E /* Pods-RidderyMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RidderyMap.release.xcconfig"; path = "Target Support Files/Pods-RidderyMap/Pods-RidderyMap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +46,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797AEE9BA692D853415439A8 /* Pods_RidderyMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D3E69DD343DD4D327C06A94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E10A7BEE2428C8EFDBEFE0AB /* Pods-RidderyMap.debug.xcconfig */,
+				FE049FD08AEAC3E9A34BF07E /* Pods-RidderyMap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		14DEDF5A7EEEC086B68B294F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3EC74519B493E0108E31B54 /* Pods_RidderyMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D05A1FE92A3E06360008F3F9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		D05A1FEA2A3E0C240008F3F9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D05A1FEF2A3E1CF90008F3F9 /* LocationManager.swift */,
+				D05A1FEB2A3E0CB80008F3F9 /* MapViewRepresntable.swift */,
+				D0E45E1C2A3EC008001DC593 /* DrawerMenu.swift */,
+				D0E45E1E2A3EDDD7001DC593 /* Views.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D05A1FEE2A3E1C120008F3F9 /* Binder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Binder;
+			sourceTree = "<group>";
+		};
+		D08AA0212A3D15EC003EB6E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0C415772A3B95A9005E6633 /* LandingView.swift */,
+				D0E45E1A2A3E9802001DC593 /* LoginView.swift */,
+				D0E45E182A3E9433001DC593 /* RegisterView.swift */,
+				D08AA0222A3D1614003EB6E2 /* HomeView.swift */,
+				D08AA0242A3D1A29003EB6E2 /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D0C415692A3B95A9005E6633 = {
 			isa = PBXGroup;
 			children = (
 				D0C415742A3B95A9005E6633 /* RidderyMap */,
 				D0C415732A3B95A9005E6633 /* Products */,
+				0D3E69DD343DD4D327C06A94 /* Pods */,
+				14DEDF5A7EEEC086B68B294F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +128,11 @@
 		D0C415742A3B95A9005E6633 /* RidderyMap */ = {
 			isa = PBXGroup;
 			children = (
+				D05A1FEE2A3E1C120008F3F9 /* Binder */,
+				D05A1FEA2A3E0C240008F3F9 /* Extensions */,
+				D05A1FE92A3E06360008F3F9 /* API */,
+				D08AA0212A3D15EC003EB6E2 /* View */,
 				D0C415752A3B95A9005E6633 /* RidderyMapApp.swift */,
-				D0C415772A3B95A9005E6633 /* ContentView.swift */,
 				D0C415792A3B95AA005E6633 /* Assets.xcassets */,
 				D0C4157B2A3B95AA005E6633 /* Preview Content */,
 			);
@@ -74,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0C415802A3B95AA005E6633 /* Build configuration list for PBXNativeTarget "RidderyMap" */;
 			buildPhases = (
+				DE85449D96EA28F854F50543 /* [CP] Check Pods Manifest.lock */,
 				D0C4156E2A3B95A9005E6633 /* Sources */,
 				D0C4156F2A3B95A9005E6633 /* Frameworks */,
 				D0C415702A3B95A9005E6633 /* Resources */,
+				A9A13E9B69ABD154BA941640 /* [CP] Embed Pods Frameworks */,
+				3171713049D29A5FB011C5B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +215,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3171713049D29A5FB011C5B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RidderyMap/Pods-RidderyMap-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RidderyMap/Pods-RidderyMap-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RidderyMap/Pods-RidderyMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A13E9B69ABD154BA941640 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RidderyMap/Pods-RidderyMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RidderyMap/Pods-RidderyMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RidderyMap/Pods-RidderyMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE85449D96EA28F854F50543 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RidderyMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0C4156E2A3B95A9005E6633 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C415782A3B95A9005E6633 /* ContentView.swift in Sources */,
+				D0E45E1D2A3EC008001DC593 /* DrawerMenu.swift in Sources */,
+				D08AA0252A3D1A29003EB6E2 /* ProfileView.swift in Sources */,
+				D0C415782A3B95A9005E6633 /* LandingView.swift in Sources */,
+				D05A1FF02A3E1CF90008F3F9 /* LocationManager.swift in Sources */,
+				D0E45E192A3E9433001DC593 /* RegisterView.swift in Sources */,
 				D0C415762A3B95A9005E6633 /* RidderyMapApp.swift in Sources */,
+				D05A1FEC2A3E0CB80008F3F9 /* MapViewRepresntable.swift in Sources */,
+				D0E45E1B2A3E9802001DC593 /* LoginView.swift in Sources */,
+				D0E45E1F2A3EDDD7001DC593 /* Views.swift in Sources */,
+				D08AA0232A3D1614003EB6E2 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +411,7 @@
 		};
 		D0C415812A3B95AA005E6633 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10A7BEE2428C8EFDBEFE0AB /* Pods-RidderyMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,6 +421,7 @@
 				DEVELOPMENT_TEAM = F96KQ4LW6N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Permitenos los datos de tu ubicacion para ofrecerte un mejor servicio";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -290,6 +442,7 @@
 		};
 		D0C415822A3B95AA005E6633 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE049FD08AEAC3E9A34BF07E /* Pods-RidderyMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +452,7 @@
 				DEVELOPMENT_TEAM = F96KQ4LW6N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Permitenos los datos de tu ubicacion para ofrecerte un mejor servicio";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
