@@ -10,7 +10,7 @@
 		797AEE9BA692D853415439A8 /* Pods_RidderyMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EC74519B493E0108E31B54 /* Pods_RidderyMap.framework */; };
 		D05A1FEC2A3E0CB80008F3F9 /* MapViewRepresntable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A1FEB2A3E0CB80008F3F9 /* MapViewRepresntable.swift */; };
 		D05A1FF02A3E1CF90008F3F9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A1FEF2A3E1CF90008F3F9 /* LocationManager.swift */; };
-		D08AA0232A3D1614003EB6E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08AA0222A3D1614003EB6E2 /* HomeView.swift */; };
+		D08AA0232A3D1614003EB6E2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08AA0222A3D1614003EB6E2 /* MapView.swift */; };
 		D08AA0252A3D1A29003EB6E2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08AA0242A3D1A29003EB6E2 /* ProfileView.swift */; };
 		D0C415762A3B95A9005E6633 /* RidderyMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C415752A3B95A9005E6633 /* RidderyMapApp.swift */; };
 		D0C415782A3B95A9005E6633 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C415772A3B95A9005E6633 /* LandingView.swift */; };
@@ -26,7 +26,7 @@
 		C3EC74519B493E0108E31B54 /* Pods_RidderyMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RidderyMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05A1FEB2A3E0CB80008F3F9 /* MapViewRepresntable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewRepresntable.swift; sourceTree = "<group>"; };
 		D05A1FEF2A3E1CF90008F3F9 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		D08AA0222A3D1614003EB6E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D08AA0222A3D1614003EB6E2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		D08AA0242A3D1A29003EB6E2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		D0C415722A3B95A9005E6633 /* RidderyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RidderyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C415752A3B95A9005E6633 /* RidderyMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidderyMapApp.swift; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 				D0C415772A3B95A9005E6633 /* LandingView.swift */,
 				D0E45E1A2A3E9802001DC593 /* LoginView.swift */,
 				D0E45E182A3E9433001DC593 /* RegisterView.swift */,
-				D08AA0222A3D1614003EB6E2 /* HomeView.swift */,
+				D08AA0222A3D1614003EB6E2 /* MapView.swift */,
 				D08AA0242A3D1A29003EB6E2 /* ProfileView.swift */,
 			);
 			path = View;
@@ -288,7 +288,7 @@
 				D05A1FEC2A3E0CB80008F3F9 /* MapViewRepresntable.swift in Sources */,
 				D0E45E1B2A3E9802001DC593 /* LoginView.swift in Sources */,
 				D0E45E1F2A3EDDD7001DC593 /* Views.swift in Sources */,
-				D08AA0232A3D1614003EB6E2 /* HomeView.swift in Sources */,
+				D08AA0232A3D1614003EB6E2 /* MapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

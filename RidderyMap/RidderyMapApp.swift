@@ -6,9 +6,14 @@
 //
 
 import SwiftUI
+import GoogleMaps
 
 @main
 struct RidderyMapApp: App {
+    
+    init() {
+        GMSServices.provideAPIKey("AIzaSyAHfAYrPQOwT8sY801yoYRx6sP7-P4sQBY")
+    }
     var body: some Scene {
         WindowGroup {
             LandingView()

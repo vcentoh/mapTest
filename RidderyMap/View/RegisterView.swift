@@ -38,7 +38,7 @@ struct RegisterView: View {
                     .padding()
                 
                 NavigationLink {
-                    HomeView().navigationBarHidden(true)
+                    MapView().navigationBarHidden(true)
                 } label: {
                     Text("Continuar").styledLinkLabel(with: LinearGradient(colors: [.green,.blue], startPoint: .topTrailing, endPoint: .bottomLeading))
                 }.padding(25)
