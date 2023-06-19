@@ -24,6 +24,22 @@ extension Text {
     }
 }
 
+extension Button {
+    func styledButton<V: View & ShapeStyle>(with gradient: V) -> some View {
+        self.fontWeight(.bold)
+            .font(.title)
+            .padding( 10)
+            .frame(minWidth: 0, maxWidth: 250, alignment: .center)
+            .background(gradient)
+            .foregroundColor(.white)
+            .padding(2)
+            .overlay(
+                RoundedRectangle(cornerRadius:20)
+                    .stroke(gradient, lineWidth:15)
+            )
+    }
+}
+
 struct NavigationButton<Destination: View, Label: View>: View {
     var action: () -> Void = { }
     var destination: () -> Destination

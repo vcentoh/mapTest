@@ -9,6 +9,9 @@ import SwiftUI
 
 struct ProfileView: View {
     @State private var showingMenu = false
+    @State private var mail = logUser?.mail ?? ""
+    @State private var nombre = logUser?.name ?? ""
+    @State private var password = logUser?.password ?? ""
     
     var body: some View {
         ZStack {
@@ -22,12 +25,21 @@ struct ProfileView: View {
                         .foregroundColor(.black.opacity(0.8))
                         .frame(width: 45.0, height: 45.0)
                 }
-                Spacer()
-                    .font(
-                        .largeTitle)
-                    .foregroundColor(
-                        .white)
-                    .frame(maxWidth: .infinity)
+                Text("Perfil de Usario!").padding()
+                Form {
+                    TextField("Correo", text: $mail)
+                    TextField("Nombre", text: $nombre)
+                    SecureField("Contraseña", text: $password)
+                    
+                }.frame(height: 200)
+                    .cornerRadius(25)
+                    .shadow(radius: 10)
+                    .padding()
+                Button("Actualizar Datos", action: {
+                    
+                })
+                .styledButton(with: LinearGradient(colors: [.orange,.black], startPoint: .topTrailing, endPoint: .bottomLeading))
+                .padding()
                 Spacer()
             }.padding(.horizontal) .frame(maxWidth: .infinity)
         }
