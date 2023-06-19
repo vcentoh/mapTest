@@ -20,6 +20,9 @@
 		D0E45E1B2A3E9802001DC593 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E45E1A2A3E9802001DC593 /* LoginView.swift */; };
 		D0E45E1D2A3EC008001DC593 /* DrawerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E45E1C2A3EC008001DC593 /* DrawerMenu.swift */; };
 		D0E45E1F2A3EDDD7001DC593 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E45E1E2A3EDDD7001DC593 /* Views.swift */; };
+		D0E5A5392A3FE2C100B93105 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E5A5382A3FE2C100B93105 /* DataManager.swift */; };
+		D0E5A53C2A3FFB8800B93105 /* UserMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E5A53B2A3FFB8800B93105 /* UserMode.swift */; };
+		D0F43A0B2A400BF900A43A43 /* Iskander.db in Resources */ = {isa = PBXBuildFile; fileRef = D0F43A0A2A400BF900A43A43 /* Iskander.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		D0E45E1A2A3E9802001DC593 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D0E45E1C2A3EC008001DC593 /* DrawerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenu.swift; sourceTree = "<group>"; };
 		D0E45E1E2A3EDDD7001DC593 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		D0E5A5382A3FE2C100B93105 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		D0E5A53B2A3FFB8800B93105 /* UserMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserMode.swift; path = ../../../rChile/UserMode.swift; sourceTree = "<group>"; };
+		D0F43A0A2A400BF900A43A43 /* Iskander.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Iskander.db; sourceTree = "<group>"; };
 		E10A7BEE2428C8EFDBEFE0AB /* Pods-RidderyMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RidderyMap.debug.xcconfig"; path = "Target Support Files/Pods-RidderyMap/Pods-RidderyMap.debug.xcconfig"; sourceTree = "<group>"; };
 		FE049FD08AEAC3E9A34BF07E /* Pods-RidderyMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RidderyMap.release.xcconfig"; path = "Target Support Files/Pods-RidderyMap/Pods-RidderyMap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +79,8 @@
 		D05A1FE92A3E06360008F3F9 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				D0F43A0A2A400BF900A43A43 /* Iskander.db */,
+				D0E5A5382A3FE2C100B93105 /* DataManager.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -86,13 +94,6 @@
 				D0E45E1E2A3EDDD7001DC593 /* Views.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		D05A1FEE2A3E1C120008F3F9 /* Binder */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Binder;
 			sourceTree = "<group>";
 		};
 		D08AA0212A3D15EC003EB6E2 /* View */ = {
@@ -128,7 +129,7 @@
 		D0C415742A3B95A9005E6633 /* RidderyMap */ = {
 			isa = PBXGroup;
 			children = (
-				D05A1FEE2A3E1C120008F3F9 /* Binder */,
+				D0E5A53A2A3FFB6A00B93105 /* Model */,
 				D05A1FEA2A3E0C240008F3F9 /* Extensions */,
 				D05A1FE92A3E06360008F3F9 /* API */,
 				D08AA0212A3D15EC003EB6E2 /* View */,
@@ -145,6 +146,14 @@
 				D0C4157C2A3B95AA005E6633 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0E5A53A2A3FFB6A00B93105 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0E5A53B2A3FFB8800B93105 /* UserMode.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +219,7 @@
 			files = (
 				D0C4157D2A3B95AA005E6633 /* Preview Assets.xcassets in Resources */,
 				D0C4157A2A3B95AA005E6633 /* Assets.xcassets in Resources */,
+				D0F43A0B2A400BF900A43A43 /* Iskander.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,10 +294,12 @@
 				D0C415782A3B95A9005E6633 /* LandingView.swift in Sources */,
 				D05A1FF02A3E1CF90008F3F9 /* LocationManager.swift in Sources */,
 				D0E45E192A3E9433001DC593 /* RegisterView.swift in Sources */,
+				D0E5A53C2A3FFB8800B93105 /* UserMode.swift in Sources */,
 				D0C415762A3B95A9005E6633 /* RidderyMapApp.swift in Sources */,
 				D05A1FEC2A3E0CB80008F3F9 /* MapViewRepresntable.swift in Sources */,
 				D0E45E1B2A3E9802001DC593 /* LoginView.swift in Sources */,
 				D0E45E1F2A3EDDD7001DC593 /* Views.swift in Sources */,
+				D0E5A5392A3FE2C100B93105 /* DataManager.swift in Sources */,
 				D08AA0232A3D1614003EB6E2 /* MapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

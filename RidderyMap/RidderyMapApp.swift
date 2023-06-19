@@ -8,11 +8,15 @@
 import SwiftUI
 import GoogleMaps
 
+var dbPointer: OpaquePointer?
+
 @main
 struct RidderyMapApp: App {
     
     init() {
-        GMSServices.provideAPIKey()
+        if let pointer = DataManager.getDatabasePointer(databaseName: "Iskander.db") {
+            dbPointer = pointer
+        }
     }
     var body: some Scene {
         WindowGroup {
