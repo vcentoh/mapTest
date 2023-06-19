@@ -12,7 +12,7 @@ import GoogleMaps
 struct RidderyMapApp: App {
     
     init() {
-        GMSServices.provideAPIKey("AIzaSyAHfAYrPQOwT8sY801yoYRx6sP7-P4sQBY")
+        GMSServices.provideAPIKey()
     }
     var body: some Scene {
         WindowGroup {
