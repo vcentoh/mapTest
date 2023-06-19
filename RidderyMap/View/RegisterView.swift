@@ -11,7 +11,6 @@ import SQLite3
 
 struct RegisterView: View {
     
-    let SQLITE_Transient = unsafeBitCast(-1, to: sqlite3_destructor_type.self)
     @State private var mail = ""
     @State private var nombre = ""
     @State private var password = ""
@@ -49,17 +48,6 @@ struct RegisterView: View {
                 }.padding(25)
                 
             }
-        }
-    }
-    
-    func registerUser() {
-        let insertStatement = "SELECT FROM USER (correo, password) VALUES (?,?,?);"
-        var insertQuery: OpaquePointer?
-        
-        if sqlite3_prepare_v2(dbPointer, insertStatement, -1, &insertQuery, nil) == SQLITE_OK {
-            sqlite3_bind_text(insertQuery, 1, mail, -1, SQLITE_Transient)
-            sqlite3_bind_text(insertQuery, 1, password, -1, SQLITE_Transient)
-            sqlite3_bind_text(insertQuery, 1, nombre, -1, SQLITE_Transient)
         }
     }
 }
