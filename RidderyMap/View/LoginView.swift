@@ -29,21 +29,25 @@ struct LoginView: View {
                     .fontWeight(.bold)
                 Form {
                     TextField("Correo", text: $mail)
-                    TextField("Contraseña", text: $password)
+                    SecureField("Contraseña", text: $password)
                     
-                }.frame(height: 170)
+                }.frame(height: 160)
                     .cornerRadius(25)
                     .shadow(radius: 10)
                     .padding()
                 
                 NavigationLink {
-                    MapView().navigationBarHidden(true)
+                    ContentMenuView().navigationBarHidden(true)
                 } label: {
                     Text("Continuar").styledLinkLabel(with: LinearGradient(colors: [.cyan,.black], startPoint: .topTrailing, endPoint: .bottomLeading))
                 }.padding(25)
                 
             }
         }
+    }
+    
+    func loginUser() {
+        
     }
 }
 

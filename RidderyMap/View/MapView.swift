@@ -16,7 +16,6 @@ struct MapView: View {
                 .ignoresSafeArea()
             VStack {
                 HStack {
-                    
                     Button(action: {self.showingMenu.toggle()}) {
                         Image(systemName: "line.horizontal.3.circle.fill")
                             .resizable(resizingMode: .stretch)

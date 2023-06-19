@@ -1,12 +1,12 @@
 //
-//  DrawerMenu.swift
+//  ContentMenuView.swift
 //  RidderyMap
 //
-//  Created by Magik on 18/6/23.
+//  Created by Magik on 19/6/23.
 //
 
-import Foundation
 import SwiftUI
+
 
 let menuHome = MenuContent(name: "Home", image: "house.fill")
 let menuProfile = MenuContent(name: "Profile", image: "person.fill")
@@ -19,9 +19,11 @@ struct ContentMenuView: View {
     
     var body: some View {
         ZStack {
-            List(menu) { menuItem in
-                MenuCell(menuItem: menuItem).onTapGesture {
-                    self.menuItemSelected = menuItem }
+            HStack {
+                List(menu) { menuItem in
+                    MenuCell(menuItem: menuItem).onTapGesture {
+                        self.menuItemSelected = menuItem }
+                }
             }
             self.selected(Menu: menuItemSelected)
         }
@@ -31,10 +33,8 @@ struct ContentMenuView: View {
         switch Menu.name {
         case "Home":
             return AnyView(MapView())
-            
         case "Profile":
             return AnyView(ProfileView())
-            
         case "Logout":
             return AnyView(LandingView())
         default:
@@ -67,32 +67,8 @@ class MenuContent: Identifiable, ObservableObject {
     }
 }
 
-
-struct TargetView: View {
-    @State private var showingMenu = false
-    
-    var body: some View {
-        ZStack {
-            Color.black.edgesIgnoringSafeArea(
-                .all)
-            VStack(alignment: .leading) {
-                Button(action: { self.showingMenu.toggle() }) {
-                    Image(systemName: "line.horizontal.3.circle.fill")
-                        .resizable(resizingMode: .stretch)
-                        .foregroundColor(.white)
-                }
-                .frame(width: 50.0, height: 50.0)
-                Spacer()
-                Text("TARGET here")
-                    .font(
-                        .largeTitle)
-                    .foregroundColor(
-                        .white)
-                    .frame(maxWidth: .infinity)
-                Spacer()
-            }.padding(.horizontal) .frame(maxWidth: .infinity)
-        }
-        .offset(x: showingMenu ? 200.0 : 0.0, y: 0)
-        .animation(.easeOut)
+struct ContentMenuView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentMenuView()
     }
 }

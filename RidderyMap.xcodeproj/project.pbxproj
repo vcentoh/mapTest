@@ -18,11 +18,12 @@
 		D0C4157D2A3B95AA005E6633 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C4157C2A3B95AA005E6633 /* Preview Assets.xcassets */; };
 		D0E45E192A3E9433001DC593 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E45E182A3E9433001DC593 /* RegisterView.swift */; };
 		D0E45E1B2A3E9802001DC593 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E45E1A2A3E9802001DC593 /* LoginView.swift */; };
-		D0E45E1D2A3EC008001DC593 /* DrawerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E45E1C2A3EC008001DC593 /* DrawerMenu.swift */; };
 		D0E45E1F2A3EDDD7001DC593 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E45E1E2A3EDDD7001DC593 /* Views.swift */; };
 		D0E5A5392A3FE2C100B93105 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E5A5382A3FE2C100B93105 /* DataManager.swift */; };
-		D0E5A53C2A3FFB8800B93105 /* UserMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E5A53B2A3FFB8800B93105 /* UserMode.swift */; };
+		D0E5A53C2A3FFB8800B93105 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E5A53B2A3FFB8800B93105 /* UserModel.swift */; };
 		D0F43A0B2A400BF900A43A43 /* Iskander.db in Resources */ = {isa = PBXBuildFile; fileRef = D0F43A0A2A400BF900A43A43 /* Iskander.db */; };
+		D0F43A0D2A4031BB00A43A43 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F43A0C2A4031BB00A43A43 /* LoginViewModel.swift */; };
+		D0F43A112A404A8600A43A43 /* ContentMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F43A102A404A8600A43A43 /* ContentMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,11 +39,12 @@
 		D0C4157C2A3B95AA005E6633 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0E45E182A3E9433001DC593 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		D0E45E1A2A3E9802001DC593 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		D0E45E1C2A3EC008001DC593 /* DrawerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenu.swift; sourceTree = "<group>"; };
 		D0E45E1E2A3EDDD7001DC593 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 		D0E5A5382A3FE2C100B93105 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		D0E5A53B2A3FFB8800B93105 /* UserMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserMode.swift; path = ../../../rChile/UserMode.swift; sourceTree = "<group>"; };
+		D0E5A53B2A3FFB8800B93105 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = ../../../rChile/UserModel.swift; sourceTree = "<group>"; };
 		D0F43A0A2A400BF900A43A43 /* Iskander.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Iskander.db; sourceTree = "<group>"; };
+		D0F43A0C2A4031BB00A43A43 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D0F43A102A404A8600A43A43 /* ContentMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMenuView.swift; sourceTree = "<group>"; };
 		E10A7BEE2428C8EFDBEFE0AB /* Pods-RidderyMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RidderyMap.debug.xcconfig"; path = "Target Support Files/Pods-RidderyMap/Pods-RidderyMap.debug.xcconfig"; sourceTree = "<group>"; };
 		FE049FD08AEAC3E9A34BF07E /* Pods-RidderyMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RidderyMap.release.xcconfig"; path = "Target Support Files/Pods-RidderyMap/Pods-RidderyMap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,7 +92,6 @@
 			children = (
 				D05A1FEF2A3E1CF90008F3F9 /* LocationManager.swift */,
 				D05A1FEB2A3E0CB80008F3F9 /* MapViewRepresntable.swift */,
-				D0E45E1C2A3EC008001DC593 /* DrawerMenu.swift */,
 				D0E45E1E2A3EDDD7001DC593 /* Views.swift */,
 			);
 			path = Extensions;
@@ -104,6 +105,7 @@
 				D0E45E182A3E9433001DC593 /* RegisterView.swift */,
 				D08AA0222A3D1614003EB6E2 /* MapView.swift */,
 				D08AA0242A3D1A29003EB6E2 /* ProfileView.swift */,
+				D0F43A102A404A8600A43A43 /* ContentMenuView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,7 +153,8 @@
 		D0E5A53A2A3FFB6A00B93105 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D0E5A53B2A3FFB8800B93105 /* UserMode.swift */,
+				D0E5A53B2A3FFB8800B93105 /* UserModel.swift */,
+				D0F43A0C2A4031BB00A43A43 /* LoginViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -289,14 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0E45E1D2A3EC008001DC593 /* DrawerMenu.swift in Sources */,
 				D08AA0252A3D1A29003EB6E2 /* ProfileView.swift in Sources */,
+				D0F43A112A404A8600A43A43 /* ContentMenuView.swift in Sources */,
 				D0C415782A3B95A9005E6633 /* LandingView.swift in Sources */,
 				D05A1FF02A3E1CF90008F3F9 /* LocationManager.swift in Sources */,
 				D0E45E192A3E9433001DC593 /* RegisterView.swift in Sources */,
-				D0E5A53C2A3FFB8800B93105 /* UserMode.swift in Sources */,
+				D0E5A53C2A3FFB8800B93105 /* UserModel.swift in Sources */,
 				D0C415762A3B95A9005E6633 /* RidderyMapApp.swift in Sources */,
 				D05A1FEC2A3E0CB80008F3F9 /* MapViewRepresntable.swift in Sources */,
+				D0F43A0D2A4031BB00A43A43 /* LoginViewModel.swift in Sources */,
 				D0E45E1B2A3E9802001DC593 /* LoginView.swift in Sources */,
 				D0E45E1F2A3EDDD7001DC593 /* Views.swift in Sources */,
 				D0E5A5392A3FE2C100B93105 /* DataManager.swift in Sources */,
